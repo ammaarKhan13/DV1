@@ -1,0 +1,7 @@
+arr=[]
+n=int(input("Enter number of elements: "))
+for i in range(0,n):
+    a=int(input(""))
+    arr.append(a)
+arr.sort()
+print("Largest: ",arr[n-1])
